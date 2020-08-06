@@ -1,7 +1,11 @@
-[miAtributo="titulo"] {
+p b {
   color: brown;
 }
 
-[disabled] {
-  background-color: burlywood;
+.parrafo strong {
+  color: blueviolet;
+}
+
+.parrafo strong small {
+  color: red;
 }
