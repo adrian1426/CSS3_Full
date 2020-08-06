@@ -1,11 +1,4 @@
-p b {
+h1:hover {
   color: brown;
-}
-
-.parrafo strong {
-  color: blueviolet;
-}
-
-.parrafo strong small {
-  color: red;
+  cursor: pointer;
 }
