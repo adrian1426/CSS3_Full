@@ -1,4 +1,11 @@
-h1:hover {
+#titulo {
+  color: blueviolet;
+}
+
+h1 {
+  color: blue !important;
+}
+
+.titulo {
   color: brown;
-  cursor: pointer;
 }
