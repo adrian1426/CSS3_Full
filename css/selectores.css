@@ -1,3 +1,7 @@
-#titulo {
+[miAtributo="titulo"] {
   color: brown;
+}
+
+[disabled] {
+  background-color: burlywood;
 }
