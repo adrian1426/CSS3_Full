@@ -1,11 +1,7 @@
-#titulo {
-  color: blueviolet;
+.user-form__input {
+  background-color: coral;
 }
 
-h1 {
-  color: blue !important;
-}
-
-.titulo {
-  color: brown;
+.user-form__input:nth-child(2) {
+  background-color: rebeccapurple;
 }
