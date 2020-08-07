@@ -1,7 +1,11 @@
-.contact-form {
-  font-size: 10px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 .contact-form__h2 {
   font-size: 5em;
+  background-color: royalblue;
+  width: 100vw;
+  height: 100vh;
 }
