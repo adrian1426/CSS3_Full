@@ -5,18 +5,46 @@
 }
 
 .contenedor {
-  background-color: blue;
-  width: 300px;
-  height: 300px;
-  margin: 40px;
+  margin: 50px auto;
+  position: relative;
+  border: 4px solid red;
+  height: 450px;
+  width: 450px;
 }
 
-.hijo {
-  background-color: orange;
-  width: 120px;
-  height: 120px;
-  position: relative;
-  top: -20px;
-  left: -20px;
-  z-index: -1;
+div {
+  display: block;
+  background-color: green;
+  position: absolute;
+}
+
+div div {
+  height: 100px;
+  width: 100px;
+  background: yellow;
+}
+
+.caja1 {
+  top: 0;
+}
+
+.caja2 {
+  right: 0;
+}
+
+.caja3 {
+  bottom: 0;
+  right: 0;
+}
+
+.caja4 {
+  bottom: 0;
+}
+
+.caja5 {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
